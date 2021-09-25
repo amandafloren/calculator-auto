@@ -1,7 +1,7 @@
 @Report
 Feature:Verify Microsite content
 
-  Scenario Outline: I can divide <firstOperand> with <secondOperand> and get correct result
+  Scenario Outline: I can divide <firstOperand> with <secondOperand>
     Given User access the website
     When I divide <firstOperand> with <secondOperand>
     Then I get the result from <firstOperand> <operator> <secondOperand>
